@@ -1,0 +1,7 @@
+<S> ::= <visibilite> <fin_abs> "class" <ID> <heritage> <interfaces>
+<visibilite> ::= epsilon | "public" | "protected"
+<fin_abs> ::= epsilon | "final" | "abstract"
+<heritage> ::= epsilon | "extends" <ID>
+<interfaces> ::= epsilon | "implements" <ID> <liste_i>
+<liste_i> ::= epsilon | "," <ID> <liste_i>
+<ID> ::= "JButton" | "Object" | "Main" | "Exemple" | "IGraph" | "IPhone" | "IMessage" | "Parseur" | "Grammar" | "ArrayList"

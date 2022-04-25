@@ -1,0 +1,9 @@
+<S> ::= <Salut> "Monsieur," "\n" <Contenu> "\n" <SalutationFormelle>
+<Salut> ::= "Salut" | "Bonjour" | "Bonsoir" | "Allo" | "Mon" "cher" | "Salaam" "alikoum" | "Yo" | "Aloha"
+<Contenu> ::= <Sante> <Contenu> | <Requete> <merci>
+<Requete> ::= "Je" "voudrais" "savoir" "si" <Sujet> "sera" "à" "l'examen." | "Pouvez-vous" "m'expliquer" <Sujet> "SVP?" | "Je" "n'ai" "pas" "pu" "faire" "mon" "devoir" "sur" <Sujet> "." | "Je" "voulais" "vous" "dire" "que" "votre" "méthode" "d'enseignement" "est" <Adjectif> | "J'aimerais" "faire" "un" "projet" "synthèse" "sur" <Sujet> "auriez-vous" "un" "sujet" "à" "me" "proposer?"
+<merci> ::= "Merci." | "Désolé." | "Je" "vous" "remercie" "par" "avance" "de" "l'attention" <Adjectif> "que" "vous" "porterez" "à" "ma" "requête." | "En" "vous" "remerciant" | "C'est" "cool."
+<Sujet> ::= "les" "grammaires" "LL(1)" | "les" "expressions" "régulières" | "le" "lambda-calcul" | "Prolog" | "Python" | "les" "fonctions" "calculables" | "Map-Reduce" | "la" "théorie" "de" "la" "relativité" "restreinte" | "Les" "grammaires" "BNF" | "les" "automates" | "les" "additions" | "l'électromagnétisme"
+<Sante> ::= epsilon | "J'espère" "que" "vous" "vous" "portez" "bien." | "Je" "vous" "souhaite" "une" <Adjectif> "année" "et" "une" <Adjectif> "santé." | "Comment" "allez-vous?" | "J'espère" "que" "vous" "n'avez" "pas" "la" "Covid." | "Ça" "va" "?" | "En" "forme" "?"
+<SalutationFormelle> ::= "Salutations" | "Que" "la" "paix" "soit" "avec" "vous." | "Cordialement" | "Veuillez" "agréer" "mes" "salutations" "les" "plus" "distinguées." | "Bien" "à" "vous" | "Avec" "respect" | "En" "vous" "souhaitant" "une" <Adjectif> "journée"
+<Adjectif> ::= "bonne" | "fantastique" | "excellente" | "merveilleuse" | "formidable" | "agréable" | "époustouflante" | "sympathique"

@@ -1,0 +1,6 @@
+<S> ::= <visibilite> "enum" <ID> "{" <valeurs> "}"
+<visibilite> ::= epsilon | "public" | "private" | "protected"
+<valeurs> ::= <IDv> <suiteVal>
+<suiteVal> ::= epsilon | "," <IDv> <suiteVal> | "," <IDv> "," <IDv> "," <IDv> <suiteVal>
+<ID> ::= "Jour" | "Etat" | "Niveau" | "Direction" | "Valeur" | "Mois"
+<IDv> ::= "Nord" | "Sud" | "Est" | "Ouest" | "Lundi" | "Mardi" | "Mercredi" | "Janvier" | "Février" | "Mars" | "Avril" | "Dimanche" | "Juillet" | "Samedi" | "Octobre" | "Q0" | "Q1" | "Mai" | "UQO" | "Q3" | "Q4" | "Q5" | "Passable" | "Petit" | "Ouvert" | "Fermé" | "Moyen" | "Juin" | "Août" | "Septembre" | "Novembre" | "Jeudi" | "Vendredi" | "Décembre" | "Terminé"
